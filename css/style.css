@@ -191,7 +191,7 @@ img{
     /* Intro style */
     .intro{
         min-height: 100vh;
-        background: url(../img/intro-bg.jpg) no-repeat center;
+        background: url("../img/intro-bg.jpg") no-repeat center;
         background-size: cover;
         padding-top: 263px;
         
@@ -218,7 +218,7 @@ img{
         flex-wrap: wrap;
     }
     .search-form_field{
-        background:transparent url(../img/svg/cirle.svg) no-repeat left top;
+        background:transparent url("../img/svg/cirle.svg") no-repeat left top;
         background-size: 20px;
         border: 0;
         border-bottom: 2px solid #BFCBC5;
@@ -317,10 +317,10 @@ img{
         font-size: 16px;
         text-decoration: none;
         padding-right: 59px;
-        background: url(../img/svg/Shape.svg) no-repeat 95% center;
+        background: url("../img/svg/Shape.svg") no-repeat 95% center;
     }
     .benefits_card-more:hover, .benefits_card-more:focus{
-        background: url(../img/svg/Shape.svg) no-repeat right center;
+        background: url("../img/svg/Shape.svg") no-repeat right center;
     }
      /* Benefits style end */
 
@@ -344,11 +344,11 @@ img{
         display: flex;
         align-items:center;
         padding-right: 59px;
-        background: url(../img/svg/Shape.svg) no-repeat 95% center;
+        background: url("../img/svg/Shape.svg") no-repeat 95% center;
         text-decoration: none;
     }
     .places_view-all:hover{
-        background: url(../img/svg/Shape.svg) no-repeat right center;
+        background: url("../img/svg/Shape.svg") no-repeat right center;
     }
     .gallery-row{
         display: grid;
@@ -452,10 +452,10 @@ img{
         font-weight: 400;
         line-height: 24px;
         padding-right: 59px;
-        background: url(../img/svg/Shape.svg) no-repeat 95% center;
+        background: url("../img/svg/Shape.svg") no-repeat 95% center;
     }
     .tour-more:hover{
-        background: url(../img/svg/Shape.svg) no-repeat right center;
+        background: url("../img/svg/Shape.svg") no-repeat right center;
     }
 
       /* Tours style end */
@@ -508,7 +508,7 @@ img{
         font-weight: 500;
         line-height: 24px;
         padding-right: 20px;
-        background: url(../img/svg/heart.svg) no-repeat right;
+        background: url("../img/svg/heart.svg") no-repeat right;
     }
     .top_card-comment{
         color: white;
@@ -516,7 +516,7 @@ img{
         font-weight: 500;
         line-height: 24px;
         padding-right: 23px;
-        background: url(../img/svg/comment.svg) no-repeat right;
+        background: url("../img/svg/comment.svg") no-repeat right;
     }
     .top_card-media{
         display: flex;

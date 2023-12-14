@@ -30,9 +30,12 @@ footer, header, hgroup, menu, nav, section {
 }
 html{
   scroll-behavior: smooth;
+	transition: 1s all ease-in-out;
 }
 body {
 	line-height: 1;
+	scroll-behavior: smooth;
+	transition: 1s all ease-in-out;
 }
 ol, ul {
 	list-style: none;

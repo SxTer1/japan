@@ -742,7 +742,7 @@ img{
       }
       @media screen and (max-width: 400px){
         .benefits_title{
-          transform: translateY(-0%);
+          transform: translateY(-90%);
         }
         .top_card{
           grid-column: span 6;

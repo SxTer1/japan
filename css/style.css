@@ -741,8 +741,11 @@ img{
         }
       }
       @media screen and (max-width: 400px){
+	.benefits_cards{
+          padding: 110px 15px 0 15px
+        }
         .benefits_title{
-          transform: translateY(-90%);
+          transform: translateY(-0%);
         }
         .top_card{
           grid-column: span 6;

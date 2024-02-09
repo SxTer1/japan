@@ -31,6 +31,7 @@ menuCloseButton.addEventListener("click", () => {
 })
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
+    dropMenu.classList.remove('header_nav-active');
       e.preventDefault();
 
       const targetId = this.getAttribute('href').substring(1);
